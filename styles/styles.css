@@ -9,32 +9,104 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:wght@300;400;800&display=swap');
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+{box-sizing: border-box}
+body {font-family: poppins, sans-serif;}
+* {padding:0;
+margin:0;}
+
+
+    /*////////////////////////
+        2. Typography
+    ////////////////////////*/
+    /* (grijs #899CA0 en donkergroen #1C2B32) */
+
+
+    /*////////////////////////
+        3. Areas
+    ////////////////////////*/
+
+
+    /*///////////// 3.1 Header /////////////*/
+
+    .header-domeinshop {
+        text-align: center;
+        padding-bottom: 380px;
+        padding-top: 50px;
+        background-image: url("../assets/images/mountains.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .header-domeinshop h1 {
+        font-weight: 800;
+        font-size: 130px;
+        margin: 0%;
+    }
+
+    .header-domeinshop p {
+     font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .header-domeinshop input{
+        width: 20%;
+        border: 3px solid black;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0%);
+      border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+    .header-domeinshop input::placeholder{
+        color: black;
+    }
+
+    .header-domeinshop button{
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        border: 3px solid black;
+        padding: 20px;
+        width:15%;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 25px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
 
 
 
-/*////////////////////////
-    2. Typography
-////////////////////////*/
+.header-domeinshop input, .header-domeinshop button {
+            margin: -3px;
+
+    }
+
+/*///////////// 3.2 Main/////////////*/
+.header-main{
+    max-width: 1000px;
+    margin: calc(50% - 500px);
+
+}
+
+.image-callcenter{
+    width: 55%;
+    border-radius: 10px;
 
 
+}
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
-
-
-
-/*///////////// 3.1 Header /////////////*/
-
-
-
-/*///////////// 3.2 Testimonial /////////////*/
+.tekst-7dagen{
+    text-align: center;
+}
 
 
 
