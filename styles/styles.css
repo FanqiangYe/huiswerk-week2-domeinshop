@@ -66,6 +66,22 @@ a:hover {
     text-decoration: none;
 }
 
+details{
+    margin: 35px 0;
+}
+
+.review-box1,
+.review-box2{
+   font-size:17px;
+}
+
+.footer-fanqiang{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+
 
     /*////////////////////////
         3. Areas
@@ -131,7 +147,47 @@ a:hover {
     }
 
 
-        /*///////////// 3.2 Main/////////////*/
+        /*///////////// 3.2 Reviews /////////////*/
+
+.review-box1{
+    margin-bottom: 80px;
+}
+
+.review-section{
+position: relative;
+}
+
+.review-box1,
+.review-box2{
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.30) ;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+.quote-icon1{
+    position: absolute;
+    top: 185px;
+}
+
+.quote-icon2{
+    position: absolute;
+    top: 475px;
+}
+
+.review-avatar{
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.reviews-name1,
+.reviews-name2{
+    font-style: italic;
+    margin-left: 24px;
+    display: inline;
+}
 
 
         /*///////////// 3.3 Support /////////////*/
@@ -149,11 +205,41 @@ a:hover {
             margin: 24px 0;
         }
 
+        .support-btn {
+            font-size: 12px;
+            color: white;
+            padding: 18px 0;
+            background-color:#1C2B32;
+            border-radius: 30px;
+            border: 2px solid;
+            width: 15%;
+            outline: none;
+            cursor: pointer;
+        }
 
 
 
-/*///////////// 3.4 Faq /////////////*/
+
+/*///////////// 3.4 Veelgestelde vragen
+ /////////////*/
+
+.faq-title {
+    text-align: center;
+}
+
+summary {
+    cursor: pointer;
+}
+
+
+
 
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-fanqiang{
+    margin-top: 50px;
+    background-color: #1C2B32;
+    padding: 35px 0;
+}
